@@ -6,22 +6,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurante Almansa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">¿Quienes somos?</a></li>
-                <li><a href="#">Horario</a></li>
-                <li><a href="#">Carta</a></li>
-                <li><a href="#">Ubicacion</a></li>
-                <li><a href="#">Platos destacados</a></li>
+                <li><a href="#slider">Inicio</a></li>
+                <li><a href="#qs">¿Quienes somos?</a></li>
+                <li><a href="#horario">Horario</a></li>
+                <li><a href="#section_5">Carta</a></li>
+                <li><a href="#mapa">Ubicacion</a></li>
+                <li><a href="#galeria">Platos destacados</a></li>
+                <img src="./img/logo restaurante.png" alt="Logo del Bar">
             </ul>
         </nav>
     </header>
 
+    <div class="slider-frame" id="slider">
+        <ul>
+            <li><img src="./img/slider1.jpg" alt="foto del restaurante"></li>
+            <li><img src="./img/slider2.jpg" alt="foto del restaurante"></li>
+            <li><img src="./img/slider3.jpg" alt="foto del restaurante"></li>
+            <li><img src="./img/slider4.jpg" alt="foto del restaurante"></li>
+        </ul>
+    </div>
+    <div class="all-text" id="qs">
+        <p>
+            Almansa es un espacio que fundamos con la idea de disfrutar de los pequeños placeres que nos hacen felices: la cerveza, los amigos, los buenos snacks y la buena música. El concepto que nos hace únicos La calidad y la originalidad son marca de la casa.
+            Una de las claves del éxito de la carta es el pan de receta patentada y que además se hornea en el momento en el que el cliente hace el pedido.
+        </p>
+    </div>
+
+    <div class="foto-text" id="horario">
+        <div class="two-column">
+            <img src="img/foto-text.jpg" alt="Horario">
+        </div>
+        <div class="two-column">
+            <h1>HORARIO</h1>
+            <p>
+                ✿Abrimos de martes a domingo.<br> ✿Lunes cerrado.
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="one-column" id="section_5">
+            <h1>¿Quiere ver nuestra carta?</h1>
+        </div>
+        <div class="one-column">
+            <h1>Dele click a la imagen para descargar la carta</h1>
+            <a href="img/Menú Restaurante Almansa.pdf" download>
+                <img id="center" src="img/menu.jpg" alt="MENU" width="100%" height="50%">
+            </a>
+        </div>
+    </div>
+    <div class="mapa" id="mapa">
+        <div class="two-column">
+            <iframe id="gulugulu" src="https://www.google.com/maps/d/embed?mid=1ERmxxvgIhFQm_fis05ZFmpwKdlJacvEr&ehbc=2E312F" width="110%" height="500px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="two-column">
+            <h2>¿Dónde estamos ubicados?<br>Carrer del Bosc, 08521 Bellavista, Barcelona</h2>
+        </div>
+    </div>
+
+    <div class="row" id="galeria">
+        <div class=one-column>
+            <h1>GALERÍA DE PLATOS</h1>
+        </div>
+    </div>
+    <div class="five-column">
+        <img src="img/gal1.jpg" alt="seccion 5a">
+    </div>
+    <div class="five-column">
+        <img src="img/gal2.jpg" alt="seccion 5b">
+    </div>
+    <div class="five-column">
+        <img src="img/gal3.jpg" alt="seccion 5c">
+    </div>
+    <div class="five-column">
+        <img src="img/gal4.jpg" alt="seccion 5d">
+    </div>
+    <div class="five-column">
+        <img src="img/gal5.jpg" alt="seccion 5e">
+    </div>
 </body>
 
 </html>
